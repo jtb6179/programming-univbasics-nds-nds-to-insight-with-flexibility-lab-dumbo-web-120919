@@ -55,7 +55,7 @@ def movies_with_director_key(name, movies_collection)
   empty_hash = {}
   
   while ty < movies_collection.length do 
-    movies_with_director_key
+    movies_with_director_key()
     quip = movies_collection[counter][:title]
     stuff = (quip) 
  binding.pry   
