@@ -58,10 +58,11 @@ def movies_with_director_key(name, movies_collection)
     quip = movies_collection[counter][:title]
     stuff = (quip) 
     empty_hash << stuff
-  ty += 1 
+  
+  ty += 1 binding.pry
   counter += 1 
 end 
-  #binding.pry 
+  # 
   return empty_hash
 end
 
