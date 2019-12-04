@@ -53,13 +53,13 @@ def movies_with_director_key(name, movies_collection)
   ty = 0 
   counter = 0 
   empty_hash = {}
-  tup = movies_with_director_key(name, movies_collection)
+  tup = movies_with_director_name(name, movies_collection)
   while ty < movies_collection.length do 
     quip = movies_collection[counter][:title]
- binding.pry   
- stuff = (quip) 
+ #binding.pry   
+ stuff_it = name.merge(quip) 
     
- empty_hash << stuff
+ empty_hash << stuff_it
   
   ty += 1 
   counter += 1 
