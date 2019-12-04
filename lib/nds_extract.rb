@@ -52,6 +52,8 @@ def movies_with_director_key(name, movies_collection)
   ty = 0 
   empty_hash = {}
   
+  while ty < movies_collection.length do 
+    
   
   binding.pry 
   
