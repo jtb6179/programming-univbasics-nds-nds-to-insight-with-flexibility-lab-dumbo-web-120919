@@ -55,7 +55,7 @@ def movies_with_director_key(name, movies_collection)
   
   while ty < movies_collection.length do 
     quip = movies_collection[counter][:title]
-    name.join(quip) 
+    name.merge(quip) 
     
   
   binding.pry 
