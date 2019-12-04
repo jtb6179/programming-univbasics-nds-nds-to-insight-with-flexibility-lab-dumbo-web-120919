@@ -29,6 +29,7 @@ def movie_with_director_name(director_name, movie_data)
     :studio => movie_data[:studio],
     :director_name => director_name
   }
+  binding.pry
 end
 
 
@@ -55,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
   
   while ty < movies_collection.length do 
     quip = movies_collection[counter][:title]
-    stuff = name.merge(quip) 
+    stuff = (quip) 
     empty_hash << stuff
   ty += 1 
   counter += 1 
