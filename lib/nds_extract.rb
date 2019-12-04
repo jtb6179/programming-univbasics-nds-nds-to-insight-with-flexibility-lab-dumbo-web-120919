@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
   tup = movies_with_director_name(name, movies_collection)
   while ty < movies_collection.length do 
     quip = movies_collection[counter][:title]
- #binding.pry   
+ binding.pry   
  stuff_it = name.merge(quip) 
     
  empty_hash << stuff_it
