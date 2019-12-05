@@ -115,6 +115,7 @@ def movies_with_directors_set(source)
   pnf = 0 
   kick = []
   
+  while pnf < source
 end
 
 # ----------------    End of Your Code Region --------------------
