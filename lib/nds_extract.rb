@@ -116,9 +116,15 @@ def movies_with_directors_set(source)
   kick = []
   
   while pnf < source.length do 
-   directors_name = source[pnf][:name]
-  
-  
+    directors_name = source[pnf][:name]
+    movies = source[pnf][:movies]
+    counter = 0 
+    while counter < movies.length do 
+      movies[counter]
+      
+      counter += 1 
+    end
+  pnf += 1 
   end 
   
 end
