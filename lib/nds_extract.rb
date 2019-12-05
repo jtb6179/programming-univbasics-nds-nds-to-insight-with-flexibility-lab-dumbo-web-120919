@@ -52,17 +52,16 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
  #binding.pry  
  ty = 0 
-  counter = 0 
-  empty_hash = {}
+  empty_hash = []
   
   while ty < movies_collection.length do 
    tup = movie_with_director_name(name, movies_collection[ty])
-   binding.pry
+
+ #binding.pry
     
- empty_hash << stuff_it
+ empty_hash << tup 
   
   ty += 1 
-  counter += 1 
 end 
   # 
   return empty_hash
