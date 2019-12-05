@@ -88,7 +88,8 @@ def gross_per_studio(collection)
    binding.pry 
    need_addy = collection[pip][:studio] 
     a_o_h[need_addy] = collection[pip][:worldwide_gross]
-   
+   if  a_o_h[need_addy] 
+     
     pip += 1 
   end
 return a_o_h
