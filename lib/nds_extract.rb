@@ -29,7 +29,7 @@ def movie_with_director_name(director_name, movie_data)
     :studio => movie_data[:studio],
     :director_name => director_name
   }
-  binding.pry
+  #binding.pry
 end
 
 
@@ -88,6 +88,7 @@ def gross_per_studio(collection)
     need_addy = collection[pip][:studio] 
     dont_do_drugs = a_o_h[need_addy]
     rehab = 0 
+    binding.pry
     while rehab < collection.length do
       dont_do_drugs[collection[pip][:worldwide_gross]]
       rehab +=1 
