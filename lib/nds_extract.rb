@@ -127,6 +127,7 @@ def movies_with_directors_set(source)
     end
   binding.pry
   kick << movies
+  
   pnf += 1 
   end 
   
