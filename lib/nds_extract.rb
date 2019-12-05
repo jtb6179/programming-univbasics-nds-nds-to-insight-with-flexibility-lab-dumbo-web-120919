@@ -88,7 +88,8 @@ def gross_per_studio(collection)
     need_addy = collection[pip][:studio] 
     dont_do_drugs = a_o_h[need_addy]
     rehab = 0 
-    while rehab < collection[pip][:studio].length do 
+    while rehab < collection[pip][:studio].length do
+      
       
   
   
