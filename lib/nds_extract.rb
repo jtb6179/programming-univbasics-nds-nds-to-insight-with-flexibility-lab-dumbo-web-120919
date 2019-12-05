@@ -91,7 +91,7 @@ def gross_per_studio(collection)
    
     pip += 1 
   end
-
+return a_o_h
 end
 
 def movies_with_directors_set(source)
