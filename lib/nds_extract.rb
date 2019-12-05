@@ -88,9 +88,10 @@ def gross_per_studio(collection)
    binding.pry 
    need_addy = collection[pip][:studio] 
     a_o_h[need_addy] = collection[pip][:worldwide_gross]
+   
     pip += 1 
   end
-  return dont_do_drugs
+
 end
 
 def movies_with_directors_set(source)
