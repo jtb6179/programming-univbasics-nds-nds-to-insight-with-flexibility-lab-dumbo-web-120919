@@ -120,8 +120,8 @@ def movies_with_directors_set(source)
     movies = source[pnf][:movies]
     counter = 0 
     while counter < movies.length do 
-      movies[counter]
       
+      movies[counter]
       counter += 1 
     end
   pnf += 1 
