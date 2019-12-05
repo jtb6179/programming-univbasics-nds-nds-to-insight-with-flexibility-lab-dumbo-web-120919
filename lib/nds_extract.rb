@@ -120,10 +120,10 @@ def movies_with_directors_set(source)
     movies = source[pnf][:movies]
     counter = 0 
     while counter < movies.length do 
-      #binding.pry
+      #
       movies[counter][:director_name] = directors_name
       counter += 1 
-    end
+    endbinding.pry
   pnf += 1 
   end 
   
