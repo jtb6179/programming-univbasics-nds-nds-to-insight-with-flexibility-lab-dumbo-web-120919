@@ -83,6 +83,7 @@ def gross_per_studio(collection)
   binding.pry
   
   pip = 0 
+  a_o_h = []
   
   
   
