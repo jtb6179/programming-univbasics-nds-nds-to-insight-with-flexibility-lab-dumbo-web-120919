@@ -86,7 +86,7 @@ def gross_per_studio(collection)
   a_o_h = []
   while pip < collection.length do 
     need_addy = collection[pip][:studio] 
-    a_o_h[need_addy]
+    dont_do_drugs = a_o_h[need_addy]
   
   
 end
