@@ -89,7 +89,9 @@ def gross_per_studio(collection)
    need_addy = collection[pip][:studio] 
     a_o_h[need_addy] = collection[pip][:worldwide_gross]
    if  a_o_h[need_addy] 
-     
+      a_o_h[need_addy] += collection[pip][:worldwide_gross]
+     else 
+       
     pip += 1 
   end
 return a_o_h
