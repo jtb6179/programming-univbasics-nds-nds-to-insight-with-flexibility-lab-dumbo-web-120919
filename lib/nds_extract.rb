@@ -87,7 +87,7 @@ def gross_per_studio(collection)
   while pip < collection.length do 
    #
    need_addy = collection[pip][:studio] 
-    binding.pry 
+    #binding.pry 
    if  a_o_h[need_addy] 
       a_o_h[need_addy] += collection[pip][:worldwide_gross]
      else 
@@ -110,6 +110,11 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
+  
+  binding.pry
+  pnf = 0 
+  kick = []
+  
 end
 
 # ----------------    End of Your Code Region --------------------
