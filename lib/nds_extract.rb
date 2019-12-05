@@ -115,7 +115,12 @@ def movies_with_directors_set(source)
   pnf = 0 
   kick = []
   
-  while source
+  while pnf < source.length do 
+   yuppy = source[pnf][:name]
+  
+  
+  end 
+  
 end
 
 # ----------------    End of Your Code Region --------------------
