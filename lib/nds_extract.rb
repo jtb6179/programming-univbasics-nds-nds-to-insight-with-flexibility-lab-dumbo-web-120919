@@ -130,7 +130,7 @@ def movies_with_directors_set(source)
    binding.pry
   pnf += 1 
   end 
-  
+  return kick 
 end
 
 # ----------------    End of Your Code Region --------------------
