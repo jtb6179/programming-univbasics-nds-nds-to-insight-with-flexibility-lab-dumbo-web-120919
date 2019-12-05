@@ -85,10 +85,11 @@ def gross_per_studio(collection)
   pip = 0 
   a_o_h = []
   while pip < collection.length do 
-    need_addy = collection[pip][:studio] 
+   binding.pry 
+   need_addy = collection[pip][:studio] 
     dont_do_drugs = a_o_h[need_addy]
     rehab = 0 
-    binding.pry
+    
     while rehab < collection.length do
       dont_do_drugs[collection[pip][:worldwide_gross]]
       rehab +=1 
