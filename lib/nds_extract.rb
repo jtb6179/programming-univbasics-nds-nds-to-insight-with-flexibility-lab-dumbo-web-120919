@@ -126,7 +126,7 @@ def movies_with_directors_set(source)
       counter += 1 
     end
   binding.pry
-  kick << 
+  kick << movies
   pnf += 1 
   end 
   
